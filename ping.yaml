@@ -1,0 +1,8 @@
+---
+- name: ping servers 
+  hosts: 
+    159.89.41.170
+    167.172.250.247
+  tasks:
+    - name: ping
+      ping:   
