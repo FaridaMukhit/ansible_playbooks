@@ -1,8 +1,6 @@
 ---
 - name: ping servers 
-  hosts: 
-    159.89.41.170
-    167.172.250.247
+  hosts: group2
   tasks:
     - name: ping
       ping:   
