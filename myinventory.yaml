@@ -1,4 +1,10 @@
 ---
-- all:
-    159.89.41.170:
-    167.172.250.247:
+all: #all servers
+  hosts: #ungrouped
+  children: 
+    group1:
+      hosts:
+        10.108.0.4:
+    group2: #group name 
+      hosts:
+        10.108.0.5:
